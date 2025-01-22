@@ -13,10 +13,9 @@ App hangs and timesout on line 50:
 `Optimizely optimizelyClient = OptimizelyFactory.newDefaultInstance(sdkKey);`   
 
 Example run:
-`[com.example.App.main()] INFO com.example.App - Hello World!   
-
-[com.example.App.main()] DEBUG com.optimizely.ab.internal.PropertyUtils - Optimizely properties file not found in filesystem or classpath: 'optimizely.properties'.  
-[com.example.App.main()] DEBUG com.optimizely.ab.OptimizelyHttpClient - Creating HttpClient with timeout: 10000  
+`[com.example.App.main()] INFO com.example.App - Hello World!<br>
+[com.example.App.main()] DEBUG com.optimizely.ab.internal.PropertyUtils - Optimizely properties file not found in filesystem or classpath: 'optimizely.properties'.<br>
+[com.example.App.main()] DEBUG com.optimizely.ab.OptimizelyHttpClient - Creating HttpClient with timeout: 10000<br>
 [pool-1-thread-1] DEBUG com.optimizely.ab.config.HttpProjectConfigManager - Fetching datafile from: https://cdn.optimizely.com/datafiles/BsXrTeB2Cv7ACQAFJWjsA.json  
 [pool-1-thread-1] INFO com.optimizely.ab.config.parser.DefaultConfigParser - using json parser: JacksonConfigParser  
 [com.example.App.main()] WARN com.optimizely.ab.config.PollingProjectConfigManager - Timeout exceeded waiting for ProjectConfig to be set, returning null.
