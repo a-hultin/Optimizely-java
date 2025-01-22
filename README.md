@@ -14,6 +14,7 @@ App hangs and timesout on line 50:
 
 Example run:
 `[com.example.App.main()] INFO com.example.App - Hello World!   
+
 [com.example.App.main()] DEBUG com.optimizely.ab.internal.PropertyUtils - Optimizely properties file not found in filesystem or classpath: 'optimizely.properties'.  
 [com.example.App.main()] DEBUG com.optimizely.ab.OptimizelyHttpClient - Creating HttpClient with timeout: 10000  
 [pool-1-thread-1] DEBUG com.optimizely.ab.config.HttpProjectConfigManager - Fetching datafile from: https://cdn.optimizely.com/datafiles/BsXrTeB2Cv7ACQAFJWjsA.json  
