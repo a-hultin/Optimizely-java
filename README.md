@@ -13,7 +13,7 @@ App hangs and timesout on line 50:
 `Optimizely optimizelyClient = OptimizelyFactory.newDefaultInstance(sdkKey);`   
 
 Example run:
-`[com.example.App.main()] INFO com.example.App - Hello World!<br>
+[com.example.App.main()] INFO com.example.App - Hello World!<br>
 [com.example.App.main()] DEBUG com.optimizely.ab.internal.PropertyUtils - Optimizely properties file not found in filesystem or classpath: 'optimizely.properties'.<br>
 [com.example.App.main()] DEBUG com.optimizely.ab.OptimizelyHttpClient - Creating HttpClient with timeout: 10000<br>
 [pool-1-thread-1] DEBUG com.optimizely.ab.config.HttpProjectConfigManager - Fetching datafile from: https://cdn.optimizely.com/datafiles/BsXrTeB2Cv7ACQAFJWjsA.json  
@@ -68,4 +68,4 @@ java.lang.IllegalThreadStateException
     at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
     at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
     at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
-    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)`  
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
